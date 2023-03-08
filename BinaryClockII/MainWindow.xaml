@@ -1,0 +1,80 @@
+﻿<Window x:Class="BinaryClockII.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BinaryClockII"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Binary Clock" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <Label Content="8" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <Label Content="4" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <Label Content="2" HorizontalAlignment="Left" Margin="10,166,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <Label Content="1" HorizontalAlignment="Left" Margin="10,218,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <TextBox x:Name="txtBH00" HorizontalAlignment="Left" Margin="40,222,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBH01" HorizontalAlignment="Left" Margin="40,170,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBH10" HorizontalAlignment="Left" Margin="91,222,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBH11" HorizontalAlignment="Left" Margin="91,170,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBH12" HorizontalAlignment="Left" Margin="91,118,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBH13" HorizontalAlignment="Left" Margin="91,66,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <Label x:Name="lblH1" Content="H" HorizontalAlignment="Left" Margin="45,267,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <Label x:Name="lblH2" Content="H" HorizontalAlignment="Left" Margin="96,267,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <TextBox x:Name="txtBM00" HorizontalAlignment="Left" Margin="148,222,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBM01" HorizontalAlignment="Left" Margin="148,170,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBM02" HorizontalAlignment="Left" Margin="148,118,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBM10" HorizontalAlignment="Left" Margin="199,222,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBM11" HorizontalAlignment="Left" Margin="199,170,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBM12" HorizontalAlignment="Left" Margin="199,118,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBM13" HorizontalAlignment="Left" Margin="199,66,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <Label x:Name="lblM1" Content="M" HorizontalAlignment="Left" Margin="150,267,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <Label x:Name="lblM2" Content="M" HorizontalAlignment="Left" Margin="201,267,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <TextBox x:Name="txtBS00" HorizontalAlignment="Left" Margin="258,222,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBS01" HorizontalAlignment="Left" Margin="258,170,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBS02" HorizontalAlignment="Left" Margin="258,118,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBS10" HorizontalAlignment="Left" Margin="309,222,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBS11" HorizontalAlignment="Left" Margin="309,170,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBS12" HorizontalAlignment="Left" Margin="309,118,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBS13" HorizontalAlignment="Left" Margin="309,66,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <Label x:Name="lblS1" Content="S" HorizontalAlignment="Left" Margin="266,267,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <Label x:Name="lblS2" Content="S" HorizontalAlignment="Left" Margin="317,267,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <TextBox x:Name="txtBD00" HorizontalAlignment="Left" Margin="370,222,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBD01" HorizontalAlignment="Left" Margin="370,170,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBD10" HorizontalAlignment="Left" Margin="421,222,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBD11" HorizontalAlignment="Left" Margin="421,170,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBD12" HorizontalAlignment="Left" Margin="421,118,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBD13" HorizontalAlignment="Left" Margin="421,66,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <Label x:Name="lblD1" Content="D" HorizontalAlignment="Left" Margin="375,267,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <Label x:Name="lblD2" Content="D" HorizontalAlignment="Left" Margin="426,267,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <TextBox x:Name="txtBm10" HorizontalAlignment="Left" Margin="491,222,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBm11" HorizontalAlignment="Left" Margin="491,170,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBm12" HorizontalAlignment="Left" Margin="491,118,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBm13" HorizontalAlignment="Left" Margin="491,66,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <Label x:Name="lblM" Content="00" HorizontalAlignment="Left" Margin="491,267,0,0" VerticalAlignment="Top" FontSize="28" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="txtBY10" HorizontalAlignment="Left" Margin="568,222,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBY11" HorizontalAlignment="Left" Margin="568,170,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBY12" HorizontalAlignment="Left" Margin="568,118,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBY13" HorizontalAlignment="Left" Margin="568,66,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <Label x:Name="lblY1" Content="Y" HorizontalAlignment="Left" Margin="576,267,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <TextBox x:Name="txtBY20" HorizontalAlignment="Left" Margin="613,222,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBY21" HorizontalAlignment="Left" Margin="613,170,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBY22" HorizontalAlignment="Left" Margin="613,118,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBY23" HorizontalAlignment="Left" Margin="613,66,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <Label x:Name="lblY2"  Content="Y" HorizontalAlignment="Left" Margin="621,267,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <TextBox x:Name="txtBY30" HorizontalAlignment="Left" Margin="658,222,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBY31" HorizontalAlignment="Left" Margin="658,170,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBY32" HorizontalAlignment="Left" Margin="658,118,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBY33" HorizontalAlignment="Left" Margin="658,66,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <Label x:Name="lblY3"  Content="Y" HorizontalAlignment="Left" Margin="666,267,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <TextBox x:Name="txtBY40" HorizontalAlignment="Left" Margin="703,222,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBY41" HorizontalAlignment="Left" Margin="703,170,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBY42" HorizontalAlignment="Left" Margin="703,118,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBY43" HorizontalAlignment="Left" Margin="703,66,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Height="40" Width="40" FontSize="28" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <Label x:Name="lblY4"  Content="Y" HorizontalAlignment="Left" Margin="711,267,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <Label x:Name="lblC1" Content=":" HorizontalAlignment="Left" Margin="131,267,0,0" VerticalAlignment="Top" FontSize="28" FontWeight="Bold"/>
+        <Label x:Name="lblC2" Content=":" HorizontalAlignment="Left" Margin="241,267,0,0" VerticalAlignment="Top" FontSize="28" FontWeight="Bold"/>
+        <Label x:Name="lblC3" Content="/" HorizontalAlignment="Left" Margin="468,267,0,0" VerticalAlignment="Top" FontSize="28" FontWeight="Bold"/>
+        <Label x:Name="lblC4" Content="/" HorizontalAlignment="Left" Margin="536,267,0,0" VerticalAlignment="Top" FontSize="28" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
